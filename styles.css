@@ -1,11 +1,11 @@
 /* Aplicação de estilos básicos (body) */
 body {
     font-family: 'Georgia', serif; 
-    background-image: url('background.jpg'); /* Imagem de fundo */
-    background-size: cover; 
-    background-repeat: no-repeat; 
+    background-image: url('background.jpg') !important; /* Imagem de fundo */
+    background-size: cover !important;
+    background-repeat: no-repeat;
     background-attachment: fixed; /* Mantém o fundo fixo ao rolar */
-    background-color: #7572d9; /* Cor de fallback caso a imagem não carregue */
+    background-color: #75726B !important; /* Cor de fallback caso a imagem não carregue */
     margin: 0;
     padding: 0;
 }
@@ -69,4 +69,5 @@ body {
     margin-top: 50px;
 
 }
+
 
