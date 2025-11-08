@@ -1,7 +1,7 @@
 /* Aplicação de estilos básicos (body) */
 body {
     font-family: 'Georgia', serif; 
-    background-image: url('images/Background 2.jpg'); /* Imagem de fundo */
+    background-image: url('Background 2.jpg'); /* Imagem de fundo */
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; /* Mantém o fundo fixo ao rolar */
@@ -67,4 +67,5 @@ body {
     text-align: center;
     color: #4a2c2c;
     margin-top: 50px;
+
 }
