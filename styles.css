@@ -1,0 +1,70 @@
+/* Aplicação de estilos básicos (body) */
+body {
+    font-family: 'Georgia', serif; 
+    background-image: url('images/Background 2.jpg'); /* Imagem de fundo */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; /* Mantém o fundo fixo ao rolar */
+    background-color: #7572d9; /* Cor de fallback caso a imagem não carregue */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do Cabeçalho (.header) */
+.header {
+    background-color: #e79d75cc; /* Tom pêssego/bege */
+    color: #4a2c2c; 
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 5px solid #c99378; 
+}
+.header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+/* Estilização da Área de Conteúdo (.content) */
+.content {
+    max-width: 900px;
+    margin: 40px auto; /* Centraliza o conteúdo */
+    padding: 20px;
+    text-align: center; 
+}
+
+/* Estilização do Parágrafo */
+.content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #4a2c2c;
+    padding: 30px 20px; /* Aumenta o padding */
+    margin-top: 30px; 
+    border-top: 1px dashed #d1b8a5c0; 
+    
+    /* ADICIONE ISTO: Fundo semi-transparente */
+    background-color: rgba(255, 255, 255, 0.321); /* Branco com 70% de opacidade */
+    width: 70%; /* Limita a largura do bloco de texto para não ir de ponta a ponta */
+    margin: 30px auto 0; /* Centraliza o bloco */
+}
+.content p strong {
+    color: #a0522d;
+}
+
+/* Estilização da Imagem Gráfica (Integração) */
+.visual-vertical {
+    display: block; 
+    width: 400px; 
+    height: 800px;
+    margin: 0 auto;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Sombra para dar destaque */
+    border: 10px solid #ffffff; /* Moldura branca */
+    object-fit: cover; 
+}
+
+/* Estilização do Rodapé (.footer) */
+.footer {
+    background-color: #d1b8a5;
+    padding: 15px;
+    text-align: center;
+    color: #4a2c2c;
+    margin-top: 50px;
+}
